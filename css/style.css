@@ -33,4 +33,23 @@ nav .navbar-brand span {
 nav .navbar-brand span {
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+header.hero-img {
+  color: #fff;
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/hero-small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.hero-img h1 {
+  text-transform: uppercase;
+}
+header.hero-img span {
+  color: #039dff;
+  font-weight: 700;
+  font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */

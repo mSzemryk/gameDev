@@ -10,6 +10,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 }
+
+// nawigacja
+
 nav {
 	text-transform: uppercase;
 	.nav-link,
@@ -33,4 +36,24 @@ nav {
 		font-weight: 700;
 		font-size: 1.5rem;
 	}
+}
+
+// header
+header.hero-img {
+	color: c.$white;
+    position:relative;
+    height: 100vh;
+    background-image: url('../img/hero-small.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	h1 {
+		text-transform: uppercase;
+	}
+    span{
+        color: c.$main-color;
+        font-weight: 700;
+        font-size:1.5em;
+    }
 }
