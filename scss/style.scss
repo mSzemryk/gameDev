@@ -15,6 +15,7 @@ body {
 
 nav {
 	text-transform: uppercase;
+	z-index: 10;
 	.nav-link,
 	.navbar-nav .nav-link.show,
 	.navbar-brand,
@@ -52,6 +53,7 @@ header.hero-img {
 	
 	h1 {
 		text-transform: uppercase;
+		text-align: center;
 	}
 	span {
 		color: c.$main-color;

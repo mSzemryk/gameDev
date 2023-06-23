@@ -12,6 +12,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 10;
 }
 nav .nav-link,
 nav .navbar-nav .nav-link.show,
@@ -48,6 +49,7 @@ header.hero-img {
 }
 header.hero-img h1 {
   text-transform: uppercase;
+  text-align: center;
 }
 header.hero-img span {
   color: #039dff;
