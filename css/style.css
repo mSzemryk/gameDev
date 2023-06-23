@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+nav {
+  text-transform: uppercase;
+}
+nav .nav-link,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show,
+nav .navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand span {
+  color: royalblue;
+}/*# sourceMappingURL=style.css.map */
