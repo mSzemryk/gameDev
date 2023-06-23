@@ -1,3 +1,5 @@
+@use './colors' as c;
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -11,14 +13,15 @@ body {
 nav {
 	text-transform: uppercase;
 	.nav-link,
-	.navbar-nav .nav-link.active,
 	.navbar-nav .nav-link.show,
-	.navbar-brand {
-		color: #fff;
+	.navbar-brand,
+	.fa-bars {
+		color: c.$white;
 	}
-}
-.navbar-brand {
-	span {
-		color: royalblue;
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-brand span {
+		color: c.$main-color;
 	}
 }

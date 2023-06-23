@@ -14,12 +14,14 @@ nav {
   text-transform: uppercase;
 }
 nav .nav-link,
-nav .navbar-nav .nav-link.active,
 nav .navbar-nav .nav-link.show,
-nav .navbar-brand {
+nav .navbar-brand,
+nav .fa-bars {
   color: #fff;
 }
-
-.navbar-brand span {
-  color: royalblue;
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-brand span {
+  color: #039dff;
 }/*# sourceMappingURL=style.css.map */
