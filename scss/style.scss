@@ -18,10 +18,19 @@ nav {
 	.fa-bars {
 		color: c.$white;
 	}
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
 	.nav-link:focus,
+	.navbar-brand:focus,
+	.navbar-brand:hover,
 	.nav-link:hover,
 	.navbar-nav .nav-link.active,
 	.navbar-brand span {
 		color: c.$main-color;
+	}
+	.navbar-brand span {
+		font-weight: 700;
+		font-size: 1.5rem;
 	}
 }

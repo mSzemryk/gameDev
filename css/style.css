@@ -19,9 +19,18 @@ nav .navbar-brand,
 nav .fa-bars {
   color: #fff;
 }
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
 nav .nav-link:focus,
+nav .navbar-brand:focus,
+nav .navbar-brand:hover,
 nav .nav-link:hover,
 nav .navbar-nav .nav-link.active,
 nav .navbar-brand span {
   color: #039dff;
+}
+nav .navbar-brand span {
+  font-weight: 700;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
