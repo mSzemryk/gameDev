@@ -1,0 +1,13 @@
+header.hero-img {
+		background-image: url('../img/hero-big.jpg');
+    .hero-text p{
+        font-size:1.8rem;
+    }
+    .letsgo-btn{
+        transition: background-color, 0.3s;
+    }
+    .letsgo-btn:hover{
+        background-color: rgb(255,255,255,0.2);
+        color: c.$main-color;
+    }
+    }

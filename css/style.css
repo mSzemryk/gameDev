@@ -56,6 +56,11 @@ header.hero-img span {
   font-weight: 700;
   font-size: 1.5em;
 }
+header.hero-img i {
+  font-size: 5rem;
+  color: #039dff;
+  margin-bottom: 10px;
+}
 header.hero-img .hero-shadow {
   position: absolute;
   top: 0;
@@ -71,4 +76,14 @@ header.hero-img .hero-text {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+header.hero-img .hero-text .letsgo-btn {
+  background: none;
+  padding: 15px;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px black;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
