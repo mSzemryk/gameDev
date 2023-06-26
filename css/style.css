@@ -4,18 +4,33 @@
   margin: 0;
 }
 
+html {
+  scroll-padding-top: 78px;
+}
+
 body {
   background-color: #333;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
 }
 
 .shadow-bg {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #039dff;
+  margin: 0 auto 40px;
+}
+
 nav {
-  transition: 0.6s;
+  transition: background-color, 0.6s;
   text-transform: uppercase;
   z-index: 10;
 }
@@ -91,4 +106,22 @@ header.hero-img .hero-text .letsgo-btn {
   border: 1px solid white;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+.about-us i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.about-us .about-us-card-title {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.about-us .about-us-card-text {
+  font-size: 14px;
+}
+.about-us .about-us-hover {
+  transition: color, 0.3s;
+}
+.about-us .about-us-hover:hover {
+  color: #039dff;
 }/*# sourceMappingURL=style.css.map */
