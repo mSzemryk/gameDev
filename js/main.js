@@ -1,12 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const nav = document.querySelector('.navbar');
+	const nav = document.querySelector('.navbar')
+	const allNavItems = document.querySelectorAll('.nav-link')
+	const navList = document.querySelector('.navbar-collapse')
 
 	addShadow = () => {
 		if (window.scrollY >= 50) {
-			nav.classList.add('shadow-bg');
+			nav.classList.add('shadow-bg')
 		} else {
-			nav.classList.remove('shadow-bg');
+			nav.classList.remove('shadow-bg')
 		}
-	};
-	window.addEventListener('scroll', addShadow);
-});
+	}
+
+	allNavItems.forEach(item =>
+		item.addEventListener('click', () => {
+			navList.classList.remove('show')
+		})
+	)
+
+	window.addEventListener('scroll', addShadow)
+})
