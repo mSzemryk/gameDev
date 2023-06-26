@@ -10,10 +10,14 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 }
+.shadow-bg{
+	background-color: rgba(0,0,0,0.8);
+}
 
 // nawigacja
 
 nav {
+	transition: .6s;
 	text-transform: uppercase;
 	z-index: 10;
 	.nav-link,
