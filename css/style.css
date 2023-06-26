@@ -124,4 +124,33 @@ header.hero-img .hero-text .letsgo-btn {
 }
 .about-us .about-us-hover:hover {
   color: #039dff;
+}
+
+.about-us-hero {
+  color: #ddd;
+  position: relative;
+  background-image: url("../img/processor-small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about-us-hero .about-us-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -5;
+}
+.about-us-hero .about-us-hero-title {
+  font-size: 24px;
+}
+.about-us-hero .about-us-hero-item {
+  margin: 10px 0;
+}
+.about-us-hero .about-us-hero-item i {
+  font-size: 36px;
 }/*# sourceMappingURL=style.css.map */
