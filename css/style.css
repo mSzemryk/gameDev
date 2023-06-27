@@ -153,4 +153,13 @@ header.hero-img .hero-text .letsgo-btn {
 }
 .about-us-hero .about-us-hero-item i {
   font-size: 36px;
+}
+
+.portfolio .carousel-item {
+  height: 600px;
+}
+.portfolio .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */
