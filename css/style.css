@@ -162,4 +162,8 @@ header.hero-img .hero-text .letsgo-btn {
   background-color: rgba(0, 0, 0, 0.8);
   left: 0;
   right: 0;
+  padding: 40px 0;
+}
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
