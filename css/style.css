@@ -169,15 +169,39 @@ header.hero-img .hero-text .letsgo-btn {
 }
 
 .prices .price-box {
-  box-shadow: 3px 3px #c1c0c0;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
   margin: 20px;
-  padding: 20px 0;
+  padding: 30px;
   background-color: #fff;
+  transition: scale, 0.3s;
 }
-.prices .price-box span, .prices .price-box .price-tag {
+.prices .price-box span,
+.prices .price-box .price-tag {
   font-weight: 700;
 }
 .prices .price-title {
   color: #039dff;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.prices i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+.prices button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.prices .price-tag {
+  font-size: 24px;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
+}
+.prices .price-box:hover {
+  scale: 1.05;
 }/*# sourceMappingURL=style.css.map */
