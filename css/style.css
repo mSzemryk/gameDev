@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #333;
+  background-color: #ebecf2;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -166,4 +166,18 @@ header.hero-img .hero-text .letsgo-btn {
 }
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.prices .price-box {
+  box-shadow: 3px 3px #c1c0c0;
+  margin: 20px;
+  padding: 20px 0;
+  background-color: #fff;
+}
+.prices .price-box span, .prices .price-box .price-tag {
+  font-weight: 700;
+}
+.prices .price-title {
+  color: #039dff;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
