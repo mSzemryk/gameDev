@@ -97,15 +97,13 @@ header.hero-img {
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-		.letsgo-btn {
+		a{
+			padding:15px 20px;
 			background: none;
-			padding: 15px;
-			font-weight: 400;
-			color: white;
-			text-shadow: 2px 2px black;
-			border: 1px solid white;
-			border-radius: 5px;
-			margin-top: 20px;
+			border:2px solid c.$main-color;
+		}
+		a:hover{
+			background-color: c.$main-color;
 		}
 	}
 }
@@ -195,26 +193,26 @@ header.hero-img {
 		color: c.$main-color;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size:20px;
+		font-size: 20px;
 	}
-	i{
+	i {
 		padding: 0 5px;
 		font-size: 24px;
 	}
-	button{
+	button {
 		text-transform: uppercase;
 		padding: 10px 20px;
 	}
-	.price-tag{
+	.price-tag {
 		font-size: 24px;
 	}
-	.price-info{
+	.price-info {
 		margin-top: 30px;
-		a{
+		a {
 			text-decoration: none;
 		}
 	}
-	.price-box:hover{
-		scale:1.05;
+	.price-box:hover {
+		scale: 1.05;
 	}
 }
