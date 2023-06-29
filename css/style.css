@@ -202,4 +202,43 @@ header.hero-img .hero-text a:hover {
 }
 .prices .price-box:hover {
   scale: 1.05;
+}
+
+.team {
+  position: relative;
+  background-image: url("../img/munich-2516500_640.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+.team .section-title {
+  color: #fff;
+}
+.team .team-shadow {
+  z-index: -5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.team .card {
+  transition: scale, 0.3s;
+}
+.team .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+.team .card i {
+  padding: 10px;
+}
+.team .card:hover {
+  scale: 1.03;
+}
+.team .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
