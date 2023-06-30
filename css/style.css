@@ -295,4 +295,12 @@ header.hero-img .hero-text a:hover {
   top: 0;
   z-index: -3;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  text-transform: uppercase;
+}
+footer span {
+  color: #039dff;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
