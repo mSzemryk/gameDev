@@ -256,19 +256,59 @@ header.hero-img {
 	}
 }
 // osiągnięcia
-.achievement-list{
+.achievement-list {
 	margin: 20px 10px;
-	i{
+	i {
 		font-size: 48px;
 		padding: 10px;
 		color: c.$white;
 		text-shadow: 0 0 5px black;
 	}
-	.achievement-number{
+	.achievement-number {
 		font-weight: bold;
 	}
-	.achievement-text{
+	.achievement-text {
 		text-transform: uppercase;
 		font-size: 13px;
+	}
+}
+
+// kontakt
+.contact {
+	position: relative;
+	background-image: url('../img/city-4864747_640.jpg');
+	background-size: cover;
+	color: c.$white;
+	z-index: 0;
+	background-attachment: fixed;
+	h3 {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	.social-media {
+		a {
+			color: c.$white;
+			font-size: 36px;
+			margin: 0 10px;
+			transition: color, 0.3s;
+		}
+		a:hover {
+			color: c.$main-color;
+		}
+	}
+	.contact-us {
+		align-items: center;
+	}
+	.contact-item {
+		margin: 20px 0;
+	}
+	.hero-shadow-contact {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: -3;
+		background-color: rgba(0, 0, 0, 0.7);
 	}
 }
