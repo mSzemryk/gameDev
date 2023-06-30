@@ -255,3 +255,20 @@ header.hero-img {
 		text-transform: uppercase;
 	}
 }
+// osiągnięcia
+.achievement-list{
+	margin: 20px 10px;
+	i{
+		font-size: 48px;
+		padding: 10px;
+		color: c.$white;
+		text-shadow: 0 0 5px black;
+	}
+	.achievement-number{
+		font-weight: bold;
+	}
+	.achievement-text{
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+}

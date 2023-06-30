@@ -241,4 +241,21 @@ header.hero-img .hero-text a:hover {
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.achievement-list {
+  margin: 20px 10px;
+}
+.achievement-list i {
+  font-size: 48px;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+}
+.achievement-list .achievement-number {
+  font-weight: bold;
+}
+.achievement-list .achievement-text {
+  text-transform: uppercase;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
